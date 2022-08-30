@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: playergraph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"movement
+      stuff","summary":"it does all the moving of the thing.","pan":{"x":83.5,"y":-420.5},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-184.0,"y":-697.0},"guid":"ab6864cb-9712-4d58-9f3c-876ad9008f7e","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-173.0,"y":-369.0},"guid":"0115dc28-6eb2-40a0-9d03-41ccc1f2ca37","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody","targetTypeName":"UnityEngine.Rigidbody","$version":"A"},"defaultValues":{"target":null,"input":{"x":3.0,"y":-2.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-9.0,"y":-388.0},"guid":"0f76c399-9f3c-4410-8641-babbb811d5e0","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"coroutine":false,"defaultValues":{"button":{"$content":"Left","$type":"Unity.VisualScripting.MouseButton"},"action":{"$content":"Hold","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-204.0,"y":-567.0},"guid":"b614d10e-6aab-4514-ba65-8aeb0d27031e","$version":"A","$type":"Unity.VisualScripting.OnMouseInput","$id":"16"},{"chainable":false,"member":{"name":"AddForce","parameterTypes":["UnityEngine.Vector3","UnityEngine.ForceMode"],"targetType":"UnityEngine.Rigidbody","targetTypeName":"UnityEngine.Rigidbody","$version":"A"},"defaultValues":{"target":null,"%force":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%mode":{"$content":"Impulse","$type":"UnityEngine.ForceMode"}},"position":{"x":-3.0,"y":-568.0},"guid":"b3afaaad-3fc2-4b2a-9ba1-c5d8e7eb463a","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"d525bd7f-b4af-44fd-8119-fc8177cdb7c7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"39f7e7d1-717b-4003-8bac-e64412a80700","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
