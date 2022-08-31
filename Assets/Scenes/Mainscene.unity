@@ -912,5 +912,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: flagbox
       objectReference: {fileID: 0}
+    - target: {fileID: 7941970040146836713, guid: 56c6d9f78ce1bd149a6f67ee2307bf25, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c6d9f78ce1bd149a6f67ee2307bf25, type: 3}
