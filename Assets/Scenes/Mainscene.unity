@@ -249,11 +249,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7376631912427304633, guid: b09534fea7b6b744fa55a4a7470c2a55, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7376631912427304633, guid: b09534fea7b6b744fa55a4a7470c2a55, type: 3}
       propertyPath: m_AngularDrag
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7376631912427304633, guid: b09534fea7b6b744fa55a4a7470c2a55, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7376631912427304633, guid: b09534fea7b6b744fa55a4a7470c2a55, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8558721525824706396, guid: b09534fea7b6b744fa55a4a7470c2a55, type: 3}
       propertyPath: m_Size.x
@@ -350,7 +358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1908139514139264100, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1908139514139264100, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_AngularDrag
@@ -361,8 +369,12 @@ PrefabInstance:
       value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1908139514139264100, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
-      propertyPath: m_CollisionDetection
+      propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908139514139264100, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5107897994030626328, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_Name
@@ -411,6 +423,10 @@ PrefabInstance:
     - target: {fileID: 7270903630657775887, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7835678737893245210, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
