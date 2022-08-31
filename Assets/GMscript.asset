@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: GMscript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"GMscript","summary":"Handles
+      spawning, killing, winning, etc","pan":{"x":-154.1221,"y":-32.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-242.0,"y":-159.0},"guid":"37e1dc43-ac57-4d78-b8f0-ac5d9769dc14","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-239.0,"y":13.0},"guid":"45949ec1-0479-4a58-8b6f-6bcff25d5747","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"member":{"name":"Instantiate","parameterTypes":["UnityEngine.Object","UnityEngine.Vector3","UnityEngine.Quaternion"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%original":{"$content":0,"$type":"UnityEngine.Object"},"%position":{"x":-23.0,"y":-3.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-109.0,"y":-159.0},"guid":"37130f6d-f43f-4a0c-8b26-f4b3d753698f","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"type":"UnityEngine.Quaternion","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"defaultValues":{},"position":{"x":-370.0,"y":-123.0},"guid":"2fdcad25-3c5b-430c-9120-09c7708865a6","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"5871a431-324e-445c-835b-40660acf2166","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%rotation","guid":"2cd68897-64ab-4984-b22b-5842fe13d91c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5107897994030626328, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
