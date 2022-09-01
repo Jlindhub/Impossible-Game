@@ -223,7 +223,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.49963948, g: 0.8962264, b: 0.37540045, a: 0}
+  m_BackGroundColor: {r: 0.37647057, g: 0.8980392, b: 0.8231452, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -264,7 +264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331296232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.850001, y: 1.7200003, z: -10}
+  m_LocalPosition: {x: 19.29, y: 1.7200003, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -585,11 +585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7270903630657775887, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.03
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 7270903630657775887, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7270903630657775887, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -625,6 +625,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
+--- !u!1 &517358666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5107897994030626328, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
+  m_PrefabInstance: {fileID: 428941211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &517358673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7270903630657775887, guid: 2fa84b192c9f0a9449f7443b28d287a8, type: 3}
@@ -1133,9 +1138,11 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"level1clear","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"winscreen","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playerwhere","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 937294631}
+    - {fileID: 517358666}
 --- !u!4 &1946815432
 Transform:
   m_ObjectHideFlags: 0
